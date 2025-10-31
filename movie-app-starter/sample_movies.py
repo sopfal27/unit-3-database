@@ -1,3 +1,5 @@
+# ⚠️ PROBLEM: These movies only exist in RAM (temporary memory)
+# When you stop the Flask app, this data is GONE forever!
 movies = [
     {
         "id": 1,
@@ -50,4 +52,3 @@ movies = [
         "poster_url": "https://placehold.co/300x450/4facfe/ffffff?text=Dark+Knight"
     }
 ]
-
