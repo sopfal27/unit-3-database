@@ -119,7 +119,7 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/add_movie, methods["GET", "POST"]')
+@app.route('/add_movie', methods=["GET", "POST"])
 def add_movie():
     '''add a new movie to the database'''
     if request.method == 'POST':
